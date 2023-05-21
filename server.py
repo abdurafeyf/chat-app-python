@@ -3,8 +3,7 @@ from threading import Thread
 from listenForClient import listen_for_client
 from ipaddress import SERVER_HOST, SERVER_PORT, separator_token
 
-# initializing set of all clients
-client_sockets = set()
+
 
 # creating a TCP socket
 s = socket.socket()

@@ -2,6 +2,9 @@ import socket
 from threading import Thread
 from ipaddress import SERVER_HOST, SERVER_PORT, separator_token
 
+# initializing set of all clients
+client_sockets = set()
+
 def listen_for_client(cs):
     """
     This function keep listening for a message from `cs` socket
