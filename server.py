@@ -1,11 +1,7 @@
 import socket
 from threading import Thread
 from listenForClient import listen_for_client
-
-# IP Address of server
-SERVER_HOST = "0.0.0.0"
-SERVER_PORT = 5002
-separater_token = "<SEP>"
+from ipaddress import SERVER_HOST, SERVER_PORT, separater_token
 
 # initializing set of all clients
 client_sockets = set()
