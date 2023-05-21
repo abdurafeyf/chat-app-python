@@ -1,6 +1,6 @@
 import socket
 from threading import Thread
-from ipaddress import SERVER_HOST, SERVER_PORT, separater_token
+from ipaddress import SERVER_HOST, SERVER_PORT, separator_token
 
 def listen_for_client(cs):
     """
