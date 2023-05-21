@@ -3,7 +3,6 @@ import random
 from threading import Thread
 from datetime import datetime
 from colorama import Fore, init, Back
-from ipaddress import SERVER_HOST, SERVER_PORT, separater_token
 
 # init colors
 init()
